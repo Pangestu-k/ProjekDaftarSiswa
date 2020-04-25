@@ -1,0 +1,4 @@
+langkah-langkah pemasangan projek :
+buat database di mysql dengan nama sekolah
+import file .sql yg telah disediakan
+silakan mencoba 

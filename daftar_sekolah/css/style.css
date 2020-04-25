@@ -1,0 +1,140 @@
+body{
+    font-family: arial;
+    font-size: 12px;
+    color:#1EBE92;
+    width: 1340px;
+    height: 550px;
+}
+ 
+ #container {
+    padding: 10px;
+}
+
+#container #header #menu {
+    padding: 5px 10px;
+    overflow: hidden; 
+}
+
+#container #header #menu #user {
+    float: left;
+    color: white;
+}
+
+#container #header #menu #user a {
+    color: #1EBE92;
+    font-size: 18px;
+    padding-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container #content{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container-user-akses {
+    height: auto;
+    width: 350px;
+    margin: 50px auto;
+}
+
+
+.content-gambar {
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.content-tulisan {
+    background: white;
+    border: solid 1px;
+    border-radius: 9px;
+    width: 350px;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-size: 2;
+}
+
+.content-tulisan .paragraph {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.content-tulisan .button-test {
+    height: 45px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.content-tulisan .button-test a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.test-gambar {
+    text-align: center;
+}
+
+.container-form {
+    overflow: hidden;
+}
+
+
+.atas{
+    margin-left: 50px;
+    margin-top: 45px;
+    display: block;
+    width: 380px;
+    height: auto;
+    margin-bottom: 20px;
+    background-image: url(Capture.png);
+}
+
+.element-form{
+    margin-bottom: 15px;
+}
+
+.element-form label{
+    display: block;
+    font-weight: bold;
+}
+
+.kiri {
+    margin: 50px;
+    margin-left: 250px;
+}
+
+.tengah {
+    margin: 50px;
+}
+
+.kanan {
+    margin: 50px;
+}
+
+.element-form input {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input[type="submit"] {
+    border-radius: 8px;
+    background: gray;
+    margin-left: 570px;
+    margin-top: -15px;
+    width: 150px;height: 30px;
+    border: none;
+    color: white;
+}
